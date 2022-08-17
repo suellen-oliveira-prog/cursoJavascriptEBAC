@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/javascript/functions.js"></script>
+        
+        <title>Exercícios EBAC - Aula 1</title>
+
+    </head>
+
+    <body>
+        <section id="container">
+            <h1>Média entre três valores</h1>
+            <h3>Insira os três valores nos campos abaixo:</h3>
+
+            <div id="campos-receptores">
+                <div>
+                    <label for="valor-a">Valor de A</label>
+                    <input type="number" name="valor-a" id="valor-a" placeholder="Digite o primeiro valor aqui...">
+                </div>
+                <div>
+                    <label for="valor-b">Valor de B</label>
+                    <input type="number" name="valor-b" id="valor-b" placeholder="Digite o segundo valor aqui...">
+                </div>
+                <div>
+                    <label for="valor-c">Valor de C</label>
+                    <input type="number" name="valor-c" id="valor-c" placeholder="Digite o terceiro valor aqui...">
+                </div>
+                <div id="btn-soma">
+                    <button type="submit" onclick="obterMedia()" >Calcular a média</button>
+                </div>
+                <div>
+                    <label for="resultado">Resultado:</label>
+                    <output name="resultado" id="resultado"></output>    
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
